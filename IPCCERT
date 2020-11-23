@@ -1,0 +1,7 @@
+n,m,k=map(int,input().split())
+c=0
+for i in range(n):
+    *l,p=map(int,input().split())
+    if sum(l)>=m and p<=10:
+        c+=1
+print(c)
